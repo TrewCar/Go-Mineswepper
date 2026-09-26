@@ -1,0 +1,122 @@
+{
+  "palette": {
+    "K": "#111111",
+    "d": "#333333",
+    "D": "#808080",
+    "G": "#c0c0c0",
+    "S": "#e0e0e0",
+    "W": "#ffffff"
+  },
+  "sheets": {
+    "icons/icons_dark.png": {
+      "frame_w": 16,
+      "frame_h": 16,
+      "frames": [
+        "mine",
+        "flag",
+        "question",
+        "clock",
+        "gear",
+        "restart",
+        "trophy",
+        "star",
+        "heart",
+        "skull",
+        "sound_on",
+        "sound_off",
+        "play",
+        "pause",
+        "close",
+        "menu",
+        "home",
+        "hint",
+        "check",
+        "diff_easy",
+        "diff_medium",
+        "diff_hard"
+      ]
+    },
+    "icons/icons_light.png": {
+      "frame_w": 16,
+      "frame_h": 16,
+      "frames": [
+        "mine",
+        "flag",
+        "question",
+        "clock",
+        "gear",
+        "restart",
+        "trophy",
+        "star",
+        "heart",
+        "skull",
+        "sound_on",
+        "sound_off",
+        "play",
+        "pause",
+        "close",
+        "menu",
+        "home",
+        "hint",
+        "check",
+        "diff_easy",
+        "diff_medium",
+        "diff_hard"
+      ]
+    },
+    "ui/panel_raised.png": {
+      "frame_w": 8,
+      "frame_h": 8,
+      "nine_slice": 2
+    },
+    "ui/panel_sunken.png": {
+      "frame_w": 8,
+      "frame_h": 8,
+      "nine_slice": 2
+    },
+    "ui/button.png": {
+      "frame_w": 8,
+      "frame_h": 8,
+      "nine_slice": 3
+    },
+    "ui/button_hover.png": {
+      "frame_w": 8,
+      "frame_h": 8,
+      "nine_slice": 3
+    },
+    "ui/button_pressed.png": {
+      "frame_w": 8,
+      "frame_h": 8,
+      "nine_slice": 3
+    },
+    "ui/led_panel.png": {
+      "frame_w": 8,
+      "frame_h": 8,
+      "nine_slice": 2
+    },
+    "ui/checkbox_off.png": {
+      "frame_w": 12,
+      "frame_h": 12
+    },
+    "ui/checkbox_on.png": {
+      "frame_w": 12,
+      "frame_h": 12
+    },
+    "ui/radio_off.png": {
+      "frame_w": 12,
+      "frame_h": 12
+    },
+    "ui/radio_on.png": {
+      "frame_w": 12,
+      "frame_h": 12
+    },
+    "cursors/arrow.png": {
+      "frame_w": 16,
+      "frame_h": 16,
+      "hotspot": [
+        0,
+        0
+      ]
+    }
+  }
+}

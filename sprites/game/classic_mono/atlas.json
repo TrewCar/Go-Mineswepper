@@ -1,0 +1,464 @@
+{
+  "style": "classic_mono",
+  "tile_size": 16,
+  "palette": {
+    "K": "#111111",
+    "d": "#333333",
+    "D": "#808080",
+    "G": "#c0c0c0",
+    "S": "#e0e0e0",
+    "W": "#ffffff"
+  },
+  "sheets": {
+    "tiles.png": {
+      "frame_w": 16,
+      "frame_h": 16,
+      "frames": [
+        "closed",
+        "open",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "mine",
+        "mine_exploded",
+        "mine_wrong",
+        "flag",
+        "question",
+        "question_open",
+        "pressed"
+      ]
+    },
+    "faces.png": {
+      "frame_w": 26,
+      "frame_h": 26,
+      "frames": [
+        "smile",
+        "smile_pressed",
+        "wow",
+        "dead",
+        "cool"
+      ]
+    },
+    "digits.png": {
+      "frame_w": 13,
+      "frame_h": 23,
+      "frames": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "minus",
+        "blank"
+      ]
+    },
+    "animations.png": {
+      "animations": {
+        "reveal": {
+          "x": 0,
+          "y": 0,
+          "frame_w": 16,
+          "frame_h": 16,
+          "frames": 6,
+          "durations_ms": [
+            60,
+            50,
+            40,
+            40,
+            60,
+            100
+          ],
+          "loop": false
+        },
+        "flag_wave": {
+          "x": 0,
+          "y": 16,
+          "frame_w": 16,
+          "frame_h": 16,
+          "frames": 6,
+          "durations_ms": [
+            110,
+            110,
+            110,
+            110,
+            110,
+            110
+          ],
+          "loop": true
+        },
+        "flag_plant": {
+          "x": 0,
+          "y": 32,
+          "frame_w": 16,
+          "frame_h": 16,
+          "frames": 6,
+          "durations_ms": [
+            50,
+            50,
+            50,
+            60,
+            60,
+            120
+          ],
+          "loop": false
+        },
+        "mine_spin": {
+          "x": 0,
+          "y": 48,
+          "frame_w": 16,
+          "frame_h": 16,
+          "frames": 2,
+          "durations_ms": [
+            180,
+            180
+          ],
+          "loop": true
+        },
+        "question_bob": {
+          "x": 0,
+          "y": 64,
+          "frame_w": 16,
+          "frame_h": 16,
+          "frames": 6,
+          "durations_ms": [
+            120,
+            120,
+            120,
+            120,
+            120,
+            120
+          ],
+          "loop": true
+        },
+        "explosion": {
+          "x": 0,
+          "y": 80,
+          "frame_w": 16,
+          "frame_h": 16,
+          "frames": 10,
+          "durations_ms": [
+            80,
+            50,
+            50,
+            60,
+            60,
+            70,
+            80,
+            90,
+            80,
+            200
+          ],
+          "loop": false
+        },
+        "face_blink": {
+          "x": 0,
+          "y": 96,
+          "frame_w": 26,
+          "frame_h": 26,
+          "frames": 5,
+          "durations_ms": [
+            2000,
+            50,
+            90,
+            50,
+            300
+          ],
+          "loop": true
+        },
+        "face_press": {
+          "x": 0,
+          "y": 122,
+          "frame_w": 26,
+          "frame_h": 26,
+          "frames": 5,
+          "durations_ms": [
+            100,
+            120,
+            300,
+            300,
+            200
+          ],
+          "loop": false
+        }
+      }
+    },
+    "shimmer.png": {
+      "animations": {
+        "glint_closed": {
+          "x": 0,
+          "y": 0,
+          "frame_w": 16,
+          "frame_h": 16,
+          "frames": 22,
+          "durations_ms": [
+            1200,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45
+          ],
+          "loop": true
+        },
+        "glint_flag": {
+          "x": 0,
+          "y": 16,
+          "frame_w": 16,
+          "frame_h": 16,
+          "frames": 22,
+          "durations_ms": [
+            1200,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45
+          ],
+          "loop": true
+        },
+        "glint_question": {
+          "x": 0,
+          "y": 32,
+          "frame_w": 16,
+          "frame_h": 16,
+          "frames": 22,
+          "durations_ms": [
+            1200,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45
+          ],
+          "loop": true
+        },
+        "glint_mine": {
+          "x": 0,
+          "y": 48,
+          "frame_w": 16,
+          "frame_h": 16,
+          "frames": 22,
+          "durations_ms": [
+            1200,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45
+          ],
+          "loop": true
+        },
+        "glint_face_cool": {
+          "x": 0,
+          "y": 64,
+          "frame_w": 26,
+          "frame_h": 26,
+          "frames": 22,
+          "durations_ms": [
+            1200,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45
+          ],
+          "loop": true
+        },
+        "glint_digit_8": {
+          "x": 0,
+          "y": 90,
+          "frame_w": 13,
+          "frame_h": 23,
+          "frames": 16,
+          "durations_ms": [
+            1200,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45,
+            45
+          ],
+          "loop": true
+        },
+        "wave_closed": {
+          "x": 0,
+          "y": 113,
+          "frame_w": 16,
+          "frame_h": 16,
+          "frames": 16,
+          "durations_ms": [
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70
+          ],
+          "loop": true
+        },
+        "wave_flag": {
+          "x": 0,
+          "y": 129,
+          "frame_w": 16,
+          "frame_h": 16,
+          "frames": 16,
+          "durations_ms": [
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70
+          ],
+          "loop": true
+        },
+        "wave_question": {
+          "x": 0,
+          "y": 145,
+          "frame_w": 16,
+          "frame_h": 16,
+          "frames": 16,
+          "durations_ms": [
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70,
+            70
+          ],
+          "loop": true
+        }
+      }
+    }
+  }
+}
