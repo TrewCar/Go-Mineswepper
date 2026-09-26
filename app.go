@@ -96,14 +96,14 @@ func NewApp(win *opengl.Window) (*App, error) {
 		players:     make(map[[2]int]*player),
 		padding:     6,
 		padding_top: 100,
-		scale:       3,
+		scale:       2,
 	}
 	a.NewGame()
 	return a, nil
 }
 
 func (a *App) NewGame() {
-	a.m = *game.New(8, 8, 10)
+	a.m = *game.New(20, 20, 10)
 	a.players = make(map[[2]int]*player)
 	a.over = false
 	a.won = false
@@ -111,7 +111,7 @@ func (a *App) NewGame() {
 	a.timer = 0
 
 	a.win.SetBounds(pixel.R(0, 0,
-		a.padding*2+float64(a.m.H)*16*a.scale, a.padding*2+a.padding_top+float64(a.m.H)*16*a.scale))
+		a.padding*2+float64(a.m.W)*16*a.scale, a.padding*2+a.padding_top+float64(a.m.H)*16*a.scale))
 }
 
 func (a *App) sprite(id fmt.Stringer) *pixel.Sprite {
